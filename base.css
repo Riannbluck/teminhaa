@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Orbitron&display=swap');
+
+:root {
+ 	 --purple:
+	--purple-gradient:
+}
+
+div[data-screen-name='rcp-fe-lol-navigation-screen'] {
+    height: 79px;
+    width: 1278px;
+    border-top: 0px solid #785a28!important;
+    box-sizing: border-box;
+}
+
+#rcp-fe-viewport-root {
+    display: flex;
+    width: 1280px;
+    height: 720px;
+    position: relative;
+    border-right: 2px solid #9100ff!important;
+    border-left: 2px solid #9100ff!important;
+    border-bottom: 2px solid #9100ff!important;
+    border-top: 2px solid #9100ff!important;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: #000;
+}
+
+#rcp-fe-viewport-root #rcp-fe-lol-navigation-app {
+    pointer-events: none;
+    background: #7a00ff24!important;
+}
+
+.lol-social-sidebar {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: #a09b8c;
+    font-size: 12px;
+    cursor: default;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    background: linear-gradient(#3f2375, #c100d81a 18%)!important;
+}
+
+.section, :host-context(lol-uikit-navigation-bar[type=nav-bar-secondary]) .section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #f1f1f1!important;
+    border: none;
+    margin: 0;
+    text-decoration: none;
+    outline: none;
+    transition: text-shadow 0.3s ease-in-out, background 1.5s;
+    width: 100%;
+    height: 100%;
+    min-height: 20px;
+    cursor: pointer;
+}
+
+.section.active .section-glow {
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    margin: 0;
+    background: linear-gradient(to left, transparent, #9e6dff, transparent)!important;
+}
+
+.section.active, :host-context(lol-uikit-navigation-bar[type=nav-bar-secondary]) .section.active {
+    color: #846bff;
+    text-shadow: 0px 0px 21px #8500ff!important;
+    /* opacity: 1; */
+}
+
+ .section.active {
+    background-image: linear-gradient(0deg, rgba(157, 84, 255, 0.3) 0%, rgba(34, 0, 66, 0.19) 55%)!important;
+}
+
+.section.active, :host-context(lol-uikit-navigation-bar[type=nav-bar-secondary]) .section.active {
+    color: #ffffff!important;
+    text-shadow: 0px 1px 15px white!important;
+    font-family: 'Orbitron', sans-serif!important;
+}
+
+.section, :host-context(lol-uikit-navigation-bar[type=nav-bar-secondary]) .section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #facfffc2!important;
+    border: none;
+    margin: 0;
+    text-decoration: none;
+    outline: none;
+    transition: text-shadow 0.3s ease-in-out, background 1.5s;
+    width: 100%;
+    height: 100%;
+    min-height: 20px;
+    cursor: pointer;
+    font-family: 'Orbitron', sans-serif!important;
+}
+
+::content .lol-uikit-video-content {
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    filter: hue-rotate(49deg)!important;
+}
+
+lol-uikit-full-page-backdrop {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(39, 0, 74, 0.8) 93%)!important;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.loot-backdrop {
+    position: absolute;
+    width: 1055px;
+    height: 718px;
+    overflow: hidden;
+    filter: hue-rotate(50deg);
+}
+
+.game-type-card .parties-game-type-upper-half {
+    position: relative;
+    cursor: pointer;
+    width: 185px;
+    height: 230px;
+    filter: hue-rotate(40deg);
+}
+
+.parties-header-button-container .back-button-container.back-button-shown {
+    display: block;
+    filter: saturate(0);
+}
+
+#rcp-fe-viewport-root > .rcp-fe-viewport-full-screen {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    -webkit-user-select: none;
+    box-shadow: inset 0px 0px 40px rgba(157, 0, 255, 0.23);
+}
+
+.basic-button .play-button-frame {
+    position: absolute;
+    width: 120%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: none !important;
+    transition: 400ms background ease;
+}
+
+.update-available-proxy {
+    position: absolute;
+    top: 11px;
+    left: 509px;
+    width: 141px;
+    height: 76px;
+    padding: 7px 0;
+    pointer-events: none;
+}
+
+.left-nav-menu, .right-nav-menu {
+    display: flex;
+    align-items: center;
+    height: 79px;
+    /* right: 14px; */
+    margin-left: -136px;
+}
+
+.basic-button {
+    position: absolute;
+    top: 10px;
+    left: 439px;
+    width: 162px;
+    height: 58px;
+    padding: 7px 0;
+    box-sizing: border-box;
+    transition: opacity 300ms ease-out;
+    cursor: default;
+    pointer-events: none;
+}
+
+.basic-button .play-button-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    transition: 400ms 200ms background ease;
+    background-image: none!important;
+}
+
+.basic-button .play-button-video, .basic-button .play-button-hover-magic {
+    position: absolute;
+    top: -7px!important;
+    left: 20px!important;
+    opacity: 0;
+}
+
+.basic-button {
+    position: absolute;
+    top: 10px;
+    left: 459px!important;
+    width: 162px;
+    height: 58px;
+    padding: 7px 0;
+    box-sizing: border-box;
+    transition: opacity 300ms ease-out;
+    cursor: default;
+    pointer-events: all!important;
+}
+
+.basic-button .league-logo {
+    position: absolute;
+    top: -6px!important;
+    left: -13px!important
+    cursor: default;
+    opacity: 0;
+}
+
+:host-context(lol-uikit-navigation-bar[type=nav-bar]) .section.active {
+    background-image: linear-gradient(0deg, rgba(205,190,145,0.15) 0%, rgba(31,37,38,0) 55%);
+    color: #ecb2ff !important;
+}
+
+
+.basic-button {
+    position: absolute;
+    top: 10px;
+    left: 419px!important;
+    width: 162px;
+    height: 58px;
+    padding: 7px 0;
+    box-sizing: border-box;
+    transition: opacity 300ms ease-out;
+    cursor: default;
+    pointer-events: none;
+}
+
+.basic-button.play .play-button-container .play-button-content .play-button-text {
+    width: calc(100% - -4px);
+    color: #d798ff!important;
+    text-shadow: 0px 0px 10px #d800ff;
+}
+
+.currency-be-icon-container {
+
+    filter: hue-rotate(81deg);
+}
+
+.currency-rp {
+    filter: hue-rotate(-150deg);
+}
+
+
+.basic-button:disabled .play-button-container .play-button-content .play-button-text, .basic-button.disabled .play-button-container .play-button-content .play-button-text {
+    color: #895fb7!important;
+    text-shadow: 0px 0px 10px black !important;
+}
+
+.basic-button .play-button-frame {
+    position: absolute;
+    width: 100%!important;
+    height: 100%!important;
+    top: 1px!important;
+    left: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 1px!important;
+    background-image: none!important;
+    transition: 400ms background ease!important;
+}
+
+.basic-button .play-button-frame:hover {
+    position: absolute;
+    width: 100%!important;
+    height: 100%!important;
+    top: 1px!important;
+    left: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 1px!important;
+    background-image: none!important;
+    transition: 400ms background ease!important;
+}
+
+.basic-button {
+    position: absolute;
+    top: 10px;
+    left: 29px;
+    width: 172px!important;
+    height: 58px;
+    padding: 7px 0;
+    box-sizing: border-box;
+    transition: opacity 300ms ease-out;
+    cursor: default;
+    background-image: url(https://nanowfx.com/themes/bouton_play2.png)!important;
+}
+
+.basic-button:hover {
+    position: absolute;
+    top: 10px;
+    left: 29px;
+    width: 172px!important;
+    height: 58px;
+    padding: 7px 0;
+    box-sizing: border-box;
+    transition: opacity 300ms ease-out;
+    cursor: default;
+    background-image: url(https://nanowfx.com/themes/bouton_playhover2.png)!important;
+}
+
+.main-navigation-menu-item {
+    min-width: 40px;
+    height: 100%;
+    pointer-events: auto;
+    position: relative;
+    --disabled-color: rgba(240,230,210,0.5);
+    filter: hue-rotate(230deg)!important;
+}
+
+.basic-button.play .play-button-container .play-button-content .play-button-text {
+    width: calc(100% - 0px)!important;
+}
+
+.basic-button .play-button-container .play-button-content {
+    position: relative;
+    width: calc(100% - 34px);
+    height: 100%;
+    left: 16px!important;
+    padding: 6px;
+    box-sizing: border-box;
+    pointer-events: all;
+    cursor: pointer;
+}
+lol-social-roster .list{
+  background-image: url(https://upload.wikimedia.org/wikipedia/pt/thumb/4/48/Yoshi.png/200px-Yoshi.png) !important;
+  background-size: cover;
+  background-position: center;
+}
