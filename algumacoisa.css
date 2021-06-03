@@ -135,7 +135,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
 }
 
 .loot-backdrop {
-    position: absolute;
+    position: center;
     width: 1055px;
     height: 718px;
     overflow: hidden;
