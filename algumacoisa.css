@@ -608,7 +608,7 @@ lol-social-status .status-message, lol-social-status .status-message-wrapper {
 .social-count-badge {
     font-weight: bold;
     border-radius: 3px;
-    background-color: #ffffff;
+    background-color: #ffffff!important;
     color: #010a13;
     padding: 0 6px;
     height: 16px;
