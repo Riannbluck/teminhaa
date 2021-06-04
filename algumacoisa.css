@@ -625,3 +625,12 @@ lol-social-status .status-message, lol-social-status .status-message-wrapper {
     pointer-events: auto;
     background-color: black;
 }
+
+body {
+    width: 1055px;
+    font-size: 12px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: black;
+}
