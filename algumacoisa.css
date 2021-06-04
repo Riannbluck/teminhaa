@@ -579,3 +579,30 @@ lol-social-status .status-message, lol-social-status .status-message-wrapper {
     line-height: 16px;
     -webkit-font-smoothing: subpixel-antialiased;
 }
+:host .parties-blue-scroll {
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: black;
+
+}
+:host .parties-status-card-body {
+    direction: ltr;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: -4px;
+    padding: 0 5px 10px 10px /*rtl:0 10px 10px 5px*/;
+    background-color: black;
+	
+}
+:host .parties-game-invite-heading {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    padding: 0 5px 0 9px;
+    flex-shrink: 0;
+    pointer-events: none;
+    margin-top: 1px;
+    background-color: black;
+	
+}
