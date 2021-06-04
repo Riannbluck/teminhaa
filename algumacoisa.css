@@ -657,3 +657,14 @@ lol-uikit-flat-input input {
     margin: 0 0 0 8px /*rtl:0 8px 0 0*/;
     background-color: black !important;
 }
+:host .parties-status-card-header .parties-status-card-header-text {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    color: #ffffff;
+    padding: 0 5px 0 9px;
+    flex-grow: 1;
+    pointer-events: none;
+    margin-top: 1px;
+    text-transform: uppercase;
+}
