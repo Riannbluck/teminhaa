@@ -421,7 +421,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
 }
 
 .friend-requests-header {
-    color: #ffc13d !important;
+    color: #ffffff !important;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -604,5 +604,17 @@ lol-social-status .status-message, lol-social-status .status-message-wrapper {
     pointer-events: none;
     margin-top: 1px;
     background-color: black;
+	
+}
+.social-count-badge {
+    font-weight: bold;
+    border-radius: 3px;
+    background-color: #ffffff;
+    color: #010a13;
+    padding: 0 6px;
+    height: 16px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
 	
 }
