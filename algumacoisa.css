@@ -624,3 +624,36 @@ lol-social-status .status-message, lol-social-status .status-message-wrapper {
     pointer-events: auto;
     background-color: black;
 }
+lol-uikit-flat-input input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 30px;
+    padding: 0 6px;
+    -webkit-appearance: none;
+    outline: none;
+    color: #f0e6d2;
+    border: thin solid #ffffff;
+    background-color: rgba(0,0,0,0.7);
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.25) inset, 0 0 0 1px rgba(0,0,0,0.25);
+}
+:host .parties-status-card-body {
+    direction: ltr;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: -4px;
+    padding: 0 5px 10px 10px /*rtl:0 10px 10px 5px*/;
+    background-color: black !important;
+}
+:host .parties-status-card-header {
+    direction: ltr;
+    display: flex;
+    justify-content: space-between;
+    height: 22px;
+    position: relative;
+    align-items: center;
+    padding: 5px;
+    margin: 0 0 0 8px /*rtl:0 8px 0 0*/;
+    background-color: black !important;
+}
