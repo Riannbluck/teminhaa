@@ -618,3 +618,10 @@ lol-social-status .status-message, lol-social-status .status-message-wrapper {
     align-items: center;
 	
 }
+.ticker-toggle {
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+    pointer-events: auto;
+    background-color: black;
+}
