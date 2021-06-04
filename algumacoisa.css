@@ -575,3 +575,10 @@ lol-social-roster-member .party-join-button {
 rcp-fe-lol-navigation {
 
 }
+lol-social-status .status-message, lol-social-status .status-message-wrapper {
+    color: #a09b8c;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 16px;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
