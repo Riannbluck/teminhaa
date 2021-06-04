@@ -166,7 +166,6 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     height: 100%;
     pointer-events: none;
     -webkit-user-select: none;
-    box-shadow: inset 0px 0px 40px rgba(255, 255, 255, 0.2);
 }
 
 .basic-button .play-button-frame {
@@ -623,14 +622,5 @@ lol-social-status .status-message, lol-social-status .status-message-wrapper {
     width: 32px;
     cursor: pointer;
     pointer-events: auto;
-    background-color: black;
-}
-
-body {
-    width: 1055px;
-    font-size: 12px;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    user-select: none;
     background-color: black;
 }
