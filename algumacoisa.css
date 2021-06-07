@@ -622,7 +622,6 @@ lol-social-status .status-message, lol-social-status .status-message-wrapper {
     width: 32px;
     cursor: pointer;
     pointer-events: auto;
-    background-color: black;
 }
 lol-uikit-flat-input input {
     display: block;
