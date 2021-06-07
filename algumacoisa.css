@@ -713,3 +713,10 @@ lol-social-roster .list {
 .parties-footer-notifications .parties-footer-warning {
     direction: ltr;
 }
+lol-social-panel {
+    display: flex;
+    flex-direction: column;
+    animation: fadein 1s;
+    font-size: 12px;
+    filter: grayscale(100%) brightness(1.2);
+}
