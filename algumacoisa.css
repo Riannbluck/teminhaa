@@ -668,3 +668,13 @@ lol-uikit-flat-input input {
     margin-top: 1px;
     text-transform: uppercase;
 }
+.parties-footer-notifications .parties-footer-warning {
+    direction: ltr;
+    color: #ffffff;
+}
+.parties-footer-notifications .parties-autofill-warning-icon {
+    background-image: none;
+}
+.navigation-status-ticker .ticker-button {
+    background-image: none;
+}
