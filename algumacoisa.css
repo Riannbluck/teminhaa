@@ -732,3 +732,8 @@ lol-social-panel {
     transition: 500ms cubic-bezier(0, 0, 0, 1);
     filter: grayscale(100%) brightness(1.2);
 }
+.lol-leagues .lol-leagues-container {
+    position: relative;
+    width: 100%;
+    background-color: black;
+}
