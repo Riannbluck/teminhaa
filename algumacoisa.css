@@ -702,15 +702,7 @@ lol-uikit-flat-input input {
     background-size: contain;
     cursor: pointer;
 }
-.style-profile-overview-component .style-profile-emblems-container {
-    position: relative;
-    width: 100%;
-    height: 240px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-    align-self: flex-end;
-    margin-left: 10px;
-    opacity: 0.3;
+.style-profile-overview-component.loaded .style-profile-overview-content {
+    pointer-events: initial;
+    opacity: 0.6;
 }
