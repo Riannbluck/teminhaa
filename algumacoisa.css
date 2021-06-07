@@ -707,3 +707,10 @@ lol-social-roster .list {
     flex: 1 1 0;
     background-color: black;
 }
+.parties-footer-notifications .parties-autofill-warning-icon {
+    background-image: none;
+}
+.parties-footer-notifications .parties-footer-warning {
+    direction: ltr;
+    color: transparent; 
+}
