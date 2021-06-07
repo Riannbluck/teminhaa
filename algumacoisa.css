@@ -720,3 +720,15 @@ lol-social-panel {
     font-size: 12px;
     filter: grayscale(100%) brightness(1.2);
 }
+.parties-player-positions lol-parties-player-position.primary {
+    transition: 500ms cubic-bezier(0, 0, 0, 1);
+    left: -70px;
+    top: 4px;
+    filter: grayscale(100%) brightness(1.2);
+}
+.parties-player-positions lol-parties-player-position.secondary {
+    left: 22px;
+    top: 4px;
+    transition: 500ms cubic-bezier(0, 0, 0, 1);
+    filter: grayscale(100%) brightness(1.2);
+}
