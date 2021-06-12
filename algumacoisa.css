@@ -759,3 +759,17 @@ lol-social-friend-requests .friend-requests {
     cursor: pointer;
     background-color: black !important;
 }
+.lol-social-actions-bar {
+    position: relative;
+    height: 33px;
+    background-color: black;
+}
+.lol-social-identity {
+    display: flex;
+    align-items: center;
+    padding: 18px 8px 0px 0;
+    right: 0;
+    width: 213px;
+    min-height: 55px;
+    background-color: black;
+}
