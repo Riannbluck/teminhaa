@@ -743,3 +743,10 @@ lol-social-roster-group .group-name {
     display: flex;
     background-color: black;
 }
+lol-social-roster-group .arrow-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 18px;
+    opacity: 1;
+    background-color: black;
+}
