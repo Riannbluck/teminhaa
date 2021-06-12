@@ -750,3 +750,12 @@ lol-social-roster-group .arrow-container {
     opacity: 1;
     background-color: black;
 }
+lol-social-friend-requests .friend-requests {
+    height: 44px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background-color: black !important;
+}
