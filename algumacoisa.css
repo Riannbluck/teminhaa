@@ -773,3 +773,6 @@ lol-social-friend-requests .friend-requests {
     min-height: 55px;
     background-color: black;
 }
+#rcp-fe-viewport-root {
+    border: 1px solid rgb(0, 0, 0) !important;
+}
