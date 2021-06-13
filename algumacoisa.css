@@ -7,7 +7,8 @@
 
 .parties-view
 {
-    background: url(https://initiate.alphacoders.com/images/542/cropped-1056-726-5423.jpg?3851) !important;
+    background: url(https://cdn.discordapp.com/attachments/787546237310205992/849788628536000522/1d16e804622b36fdf5c6f6cbb69ff62d.png);
+    background-size: cover;
 }
 .parties-view .parties-background {
     opacity:0;
@@ -775,4 +776,14 @@ lol-social-friend-requests .friend-requests {
 }
 #rcp-fe-viewport-root {
     border: 1px solid rgb(0, 0, 0) !important;
+}
+.parties-player-banners {
+    direction: ltr;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    margin-top: 63px;
+    max-height: 444px;
+    opacity: 0.8;
 }
