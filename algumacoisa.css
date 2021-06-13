@@ -795,3 +795,7 @@ lol-social-friend-requests .friend-requests {
     height: 100%;
     background: url(https://wallpaperaccess.com/full/2825704.gif);
 }
+.champion-select .champion-splash-background .background-vignette-container {
+    position: absolute;
+    top: 10001px;
+}
