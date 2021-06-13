@@ -508,9 +508,9 @@ lol-social-roster-member {
     padding-bottom: 5px!important;
 }
 
-lol-social-roster-member .layout{
+lol-social-roster-member .layout {
     padding: 10px!important;
-    background: rgba(0,0,0,0.5);
+    background: rgba(31, 31, 31, 0.29);
     border-radius: 10px 0px 0px 10px!important;
 }
 
@@ -775,9 +775,4 @@ lol-social-friend-requests .friend-requests {
 }
 #rcp-fe-viewport-root {
     border: 1px solid rgb(0, 0, 0) !important;
-}
-lol-social-roster-member .layout {
-    padding: 10px!important;
-    background: rgba(31, 31, 31, 0.29);
-    border-radius: 10px 0px 0px 10px!important;
 }
