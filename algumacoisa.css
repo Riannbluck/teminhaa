@@ -802,3 +802,6 @@ lol-social-friend-requests .friend-requests {
     background: url(https://acegif.com/wp-content/gifs/starfall-gif-46.gif);
     background-size: cover;
 }
+.navigation-status-ticker .ticker-button {
+    background-image: none !important;
+}
